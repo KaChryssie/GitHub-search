@@ -23,6 +23,11 @@ speed-measure-plugin*.json
 .settings/
 *.sublime-workspace
 
+
+# environment
+/src/environments/environment.ts
+
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
@@ -40,7 +45,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/src/environments/**
+
 
 # System Files
 .DS_Store

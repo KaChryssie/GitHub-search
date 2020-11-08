@@ -1,10 +1,12 @@
 # GitHubSearch
 The link to the website :
 https://kachryssie.github.io/GitHub-search/
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
 ## Description
-This is an application that enables users to create quotes and have those quotes voted .It also has its own existing Quotes that a user can refer to.A user can also delete a quote. 
+Its a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
 
 ## Author
 Karera Chryssie

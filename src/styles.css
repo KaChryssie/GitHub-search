@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+background-image : url('assets/photo-1484417894907-623942c8ee29.jpeg');
+background-size: cover;
+}
+
+h1{
+    color:rgb(13, 13, 14) ;
+    margin-top: 2px;
+    text-align: center;    
+}

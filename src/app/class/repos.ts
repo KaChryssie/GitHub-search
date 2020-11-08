@@ -1,10 +1,10 @@
 export class Repos {
 
-    constructor(public name:string, public html_url:string, public description: string, public created_at:Date){
-        this.name = name;
+    constructor(public html_url:string, public description: string){
+        
         this.html_url = html_url;
         this.description = description;
-        this.created_at = created_at;
+        
         
     }
     

@@ -1,24 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { ProfileService } from './profile.service';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
-
+ import { FormsModule } from '@angular/forms';
+import { ReposComponent } from './repos/repos.component';
+import { StrikethroughDirective } from './appstrike-through.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    ReposComponent,
+    StrikethroughDirective
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
